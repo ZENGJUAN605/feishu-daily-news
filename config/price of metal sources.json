@@ -1,0 +1,42 @@
+{
+  "max_articles": 35,
+  "queries": [
+    {
+      "query": "site:www.smm.cn 预焙阳极采购基准价、市场商谈价",
+      "hl": "zh-CN",
+      "gl": "CN"
+    },
+    {
+      "query": "site:www.aladdiny.com 预焙阳极、石油焦的价格走势",
+      "hl": "zh-CN",
+      "gl": "CN"
+    },
+    {
+      "query": "site:www.baiinfo.com  全国各地预焙阳极市场报价、开工率、库存上下游联动数据",
+      "hl": "zh-CN",
+      "gl": "CN"
+    },
+   
+    
+    
+   
+    
+  ],
+  "feeds": [
+    {
+      "url": "https://www.globalhydrogenreview.com/rss/hydrogen.xml",
+      "region": "GB",
+      "name": "Global Hydrogen Review"
+    },
+    {
+      "url": "https://stratechery.com/feed/",
+      "region": "US",
+      "name": "Stratechery"
+    },
+    {
+      "url": "https://fs.blog/feed/",
+      "region": "US",
+      "name": "Farnam Street"
+    }
+  ]
+}
