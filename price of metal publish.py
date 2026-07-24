@@ -26,7 +26,7 @@ PROMPT_USER   = _load_text("price of metal.txt")
 # Env vars
 WEBHOOK_URL   = os.environ["FEISHU_WEBHOOK_URL"]
 FEISHU_SECRET = os.environ["FEISHU_SECRET"]
-GITHUB_TOKEN  = os.environ.get("GITHUB_TOKEN", "")
+GITHUB_TOKEN  = os.environ.get("GH_TOKEN", "")
 
 # ── Helpers ────────────────────────────────────────────────────────
 def http_get(url, headers=None):
